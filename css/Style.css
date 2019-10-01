@@ -5,7 +5,7 @@ body{
 #contention{
 
     height: 1000px;
-    width: 1400px;
+    width: 1200px;
 }
 #contention #contention1 {
     height: 100px;
@@ -658,7 +658,7 @@ float: left;
     background: dodgerblue;
     color: white;
     float: left;
-    margin-left: 240px;
+    margin-left: 710px;
 
 
 
@@ -666,15 +666,29 @@ float: left;
 #contention #contention3{
     position: absolute;
     margin-top: 80px;
-    -webkit-filter: brightness(70%);
 }
-#contention #contention4 p{
+#contention #contention4 {
+     position: absolute;
+     font-size: 50px;
+     color: white;
+     text-align: center;
+     margin-top: 350px;
+     margin-left: 360px;
+     font-weight: bolder;
+
+
+
+ }
+#contention #contention5 p{
     position: absolute;
-    font-size: 50px;
+    font-size: 20px;
     color: white;
     text-align: center;
-    margin-top: 350px;
-    margin-left: 420px;
+    float: left;
+    margin-top: 450px;
+    margin-left: 480px;
     font-weight: bolder;
+
+
 
 }
