@@ -1921,8 +1921,9 @@ margin-top: -38px;
   font-weight: bolder;
 }
  .ld{
-   margin-top: 200px;
-   margin-left: -150px;
+   float: left;
+   margin-top: -200px;
+   margin-left: 340px;
  }
  #chon p{
    float: left;
@@ -2049,8 +2050,9 @@ margin-top: -38px;
   font-weight: bolder;
 }
 .ld1{
-  margin-top: 328px;
-  margin-left: -300px;
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
 }
 #chon1 p{
   float: left;
@@ -2191,8 +2193,9 @@ margin-top: -38px;
   font-weight: bolder;
 }
 .ld2{
-  margin-top: 320px;
-  margin-left: -300px;
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
 }
 #chon2 p{
   float: left;
@@ -2319,8 +2322,9 @@ margin-top: -38px;
   font-weight: bolder;
 }
 .ld3{
-  margin-top: 320px;
-  margin-left: -300px;
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
 }
 #chon3 p{
   float: left;
