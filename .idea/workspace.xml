@@ -11,7 +11,7 @@
   <component name="ProjectId" id="1Rg5HhyIg7oNn5MvV3KSYQ3ZBNo" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webcanhan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -40,7 +40,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1570075813519</updated>
-      <workItem from="1570075814971" duration="27471000" />
+      <workItem from="1570075814971" duration="29756000" />
+      <workItem from="1570119912447" duration="488000" />
+      <workItem from="1570383581546" duration="6710000" />
+      <workItem from="1570440234300" duration="21126000" />
+      <workItem from="1570505298584" duration="1773000" />
+      <workItem from="1570511967017" duration="8166000" />
     </task>
     <servers />
   </component>

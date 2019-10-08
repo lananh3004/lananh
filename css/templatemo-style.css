@@ -189,7 +189,7 @@ header {
   position: absolute;
   width: 100%;
   height: 140px;
-  line-height: 100px;
+  /*line-height: 100px;*/
   background-color: #45489a;
   padding: 20px;
   text-align: center;
@@ -198,14 +198,21 @@ header {
 .sidebar-navigation .logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 18px;
+  /*font-weight: 700;*/
   text-transform: uppercase;
   letter-spacing: 0.5px;
   height: 100px;
   width: 100%;
-  display: inline-block;
-  border: 1px solid rgba(250,250,250,0.5);
+  /*display: inline-block;*/
+  float: left;
+ margin-top: 20px;
+
+  /*border: 1px solid rgba(250,250,250,0.5);*/
+}
+.sidebar-navigation .logo p{
+  float: left;
+  margin-top: 200px;
 }
 
 .sidebar-navigation .logo em {
@@ -777,6 +784,7 @@ width: 10%;
   float: left;
 margin-top: 50px;
   font-size: 20px;
+   text-align: left;
 }
 #blog .tabs .active:hover {
   color: #fff;
@@ -1151,7 +1159,7 @@ color: white;
 }
 #De .chu1{
   position: absolute;
-  font-size: 30px;
+  font-size: 20px;
   padding-left: -400px;
   margin-top: 650px;
 }
@@ -1161,7 +1169,7 @@ color: white;
 
 }
 #De .chu2{
-  font-size: 30px;
+  font-size: 20px;
   float: left;
   margin-left: 0px;
   margin-top: 60px;
@@ -1172,7 +1180,7 @@ color: white;
   margin-left: -70px;
 }
 #De .chu3{
-  font-size: 30px;
+  font-size: 20px;
   float: left;
   margin-left: 0px;
   margin-top: 60px;
@@ -1183,7 +1191,7 @@ color: white;
   margin-left: 40px;
 }
 #De .chu{
-  font-size: 30px;
+  font-size: 20px;
   float: left;
   margin-left: -350px;
   margin-top: 60px;
@@ -1197,8 +1205,8 @@ color: white;
   float: left;
   margin-top: 60px;
   text-align: center;
-  font-size: 45px;
-  margin-left: -100px;
+  font-size: 27px;
+  margin-left: -50px;
   font-family: Arial;
   color: blueviolet;
 }
@@ -1663,4 +1671,761 @@ td{
 th{
 
   border: 1px solid black;
+}
+#tab2 h2{
+  color: #2b669a;
+  margin-left: -780px;
+}
+#Re1 p {
+  float: left;
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: left;
+
+}
+#ch p {
+  font-size: 22px;
+  color: #2b669a;
+  float: left;
+margin-top: -50px;
+}
+#khung{
+  height: 500px;
+  width: 800px;
+  border: 1px solid #2b669a;
+  margin-top: 100px;
+}
+#khung p{
+  font-size: 20px;
+  margin-top: 30px;
+  color: #2aabd2;
+
+}
+.khu{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: 40px;
+  margin-left: 50px;
+  width: 170px;
+  height: 90px;
+
+
+}
+.khu h4{
+  color: #2aabd2;
+  margin-left: 10px;
+}
+.muiten{
+  color: #2aabd2;
+font-size: 70px;
+  margin-top: -100px;
+  margin-left: -270px;
+}
+.khu1{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: -89px;
+  margin-left: 320px;
+  width: 170px;
+  height: 90px;
+
+}
+.khu1 h4{
+  color: #2aabd2;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.muiten1{
+  color: #2aabd2;
+  font-size: 70px;
+  margin-top: -100px;
+  margin-left: 270px;
+}
+.khu2{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: -89px;
+  margin-left: 580px;
+  width: 170px;
+  height: 90px;
+
+}
+.khu2 h4{
+  color: #2aabd2;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.muiten2{
+  color: #2aabd2;
+  font-size: 70px;
+  margin-top: 0px;
+  margin-left: 550px;
+}
+.khu3{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: 0px;
+  margin-left: 583px;
+  width: 170px;
+  height: 120px;
+
+}
+.khu3 h4{
+  color: #2aabd2;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.muiten3{
+  color: #2aabd2;
+  font-size: 70px;
+  margin-top: -120px;
+  margin-left: 270px;
+}
+.khu4{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: -100px;
+  margin-left: 320px;
+  width: 170px;
+  height: 120px;
+
+}
+.khu4 h4{
+  color: #2aabd2;
+  margin-top: 40px;
+  margin-left: 10px;
+}
+.muiten4{
+  color: #2aabd2;
+  font-size: 70px;
+  margin-top: -120px;
+  margin-left: 270px;
+}
+.khu5{
+  text-align: left;
+  border: 1px solid #2aabd2;
+  width: 170px;
+  margin-top: -100px;
+  margin-left: 50px;
+  width: 170px;
+  height: 120px;
+
+}
+.khu5 h4{
+  color: #2aabd2;
+  margin-top: 40px;
+  text-align: center;
+}
+.muiten5{
+  color: #2aabd2;
+  font-size: 70px;
+  margin-top: -120px;
+  margin-left: -260px;
+}
+#Im1{
+  float: left;
+  margin-top: 50px;
+}
+.hi{
+  float: left;
+
+  margin-top: 30px;
+}
+ #Im1 #ten p{
+   float: left;
+  font-size: 25px;
+  margin-top: -380px;
+  margin-left: 350px;
+}
+ #tien p{
+   float: left;
+   margin-top: -330px;
+   margin-left: 350px;
+   text-align: left;
+ }
+ #size p {
+   float: left;
+   margin-top: -280px;
+   margin-left: 350px;
+   font-weight: bolder;
+   font-size: 16px;
+
+ }
+ #si p{
+   float: left;
+   margin-top: -280px;
+   border: 1px solid black;
+   background: black;
+   color: white;
+   height: 30px;
+   width: 30px;
+   border-radius: 40px;
+   text-align: center;
+   margin-left: 650px;
+   font-size: 20px;
+ }
+ #sol p{
+   float: left;
+   margin-top: -240px;
+   margin-left: 350px;
+   font-weight: bolder;
+   font-size: 16px;
+ }
+ #but{
+   float: left;
+   height: 30px;
+   width: 100px;
+   background: gainsboro;
+   margin-top: -240px;
+   margin-left: 579px;
+ }
+ #but #cong{
+   height: 30px;
+   width: 30px;
+   background: black;
+   border: 1px solid black;
+   float: left;
+   margin-left: 0px;
+ }
+#but #cong p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 2px;
+}
+#so p{
+  font-size: 18px;
+  color: black;
+float: left;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+#but #tru{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+margin-top: -38px;
+}
+#but #tru p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+ .ld{
+   margin-top: 200px;
+   margin-left: -150px;
+ }
+ #chon p{
+   float: left;
+   margin-left: 350px;
+   font-size: 16px;
+   font-weight: bolder;
+   margin-top: -60px;
+ }
+.pix_text12{
+   width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 450px;
+  margin-top: -62px;
+
+ }
+.nutchon{
+  float: left;
+  margin-top: 0px;
+  margin-left: 350px;
+  height: 30px;
+  width: 130px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.nutchon1{
+  float: left;
+  margin-top: -30px;
+  margin-left: 515px;
+  height: 30px;
+  width: 180px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.hi1{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#Im1 #ten1 p{
+  float: left;
+  font-size: 25px;
+  margin-top: -380px;
+  margin-left: 350px;
+}
+#tien1 p{
+  float: left;
+  margin-top: -330px;
+  margin-left: 350px;
+  text-align: left;
+}
+#size1 p {
+  float: left;
+  margin-top: -280px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si1 p{
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+}
+#sol1 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but1{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but1 #cong1{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but1 #cong1 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 2px;
+}
+#so1 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+#but1 #tru1{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -38px;
+}
+#but1 #tru1 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.ld1{
+  margin-top: 328px;
+  margin-left: -300px;
+}
+#chon1 p{
+  float: left;
+  margin-left: 350px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text13{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 450px;
+  margin-top: -62px;
+
+}
+.nutchon2{
+  float: left;
+  margin-top: 0px;
+  margin-left: 350px;
+  height: 30px;
+  width: 130px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.nutchon3{
+  float: left;
+  margin-top: -30px;
+  margin-left: 515px;
+  height: 30px;
+  width: 180px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.hi2{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#Im1 #ten2 p{
+  float: left;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 28px;
+}
+#tien2 p{
+  float: left;
+  margin-top: 100px;
+  margin-left: -120px;
+  text-align: left;
+}
+#size2 p {
+  float: left;
+  margin-top: 160px;
+  margin-left: -122px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si2 p{
+   float: left;
+   margin-top: -280px;
+   border: 1px solid black;
+   background: black;
+   color: white;
+   height: 30px;
+   width: 30px;
+   border-radius: 40px;
+   text-align: center;
+   margin-left: 610px;
+  font-size: 20px;
+  padding-top: 2px;
+ }
+#si3 p{
+  float: left;
+  margin-top: -280px;
+  border: 4px solid black;
+  background: white;
+  color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+}
+#sol2 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but2{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but2 #cong2{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but2 #cong2 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 2px;
+}
+#so2 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+#but2 #tru2{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -38px;
+}
+#but2 #tru2 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.ld2{
+  margin-top: 320px;
+  margin-left: -300px;
+}
+#chon2 p{
+  float: left;
+  margin-left: 350px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text14{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 450px;
+  margin-top: -62px;
+
+}
+.nutchon4{
+  float: left;
+  margin-top: 0px;
+  margin-left: 350px;
+  height: 30px;
+  width: 130px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.nutchon5{
+  float: left;
+  margin-top: -30px;
+  margin-left: 515px;
+  height: 30px;
+  width: 180px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.hi3{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+#Im1 #ten3 p{
+  float: left;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+#tien3 p{
+  float: left;
+  margin-top: 100px;
+  margin-left: -148px;
+  text-align: left;
+}
+#size3 p {
+  float: left;
+  margin-top: 160px;
+  margin-left: -148px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si5 p{
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+}
+#sol3 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 347px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but3{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but3 #cong3{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but3 #cong3 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: 2px;
+}
+#so3 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+#but3 #tru3{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -38px;
+}
+#but3 #tru3 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+}
+.ld3{
+  margin-top: 320px;
+  margin-left: -300px;
+}
+#chon3 p{
+  float: left;
+  margin-left: 350px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text15{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 450px;
+  margin-top: -62px;
+
+}
+.nutchon6{
+  float: left;
+  margin-top: 0px;
+  margin-left: 350px;
+  height: 30px;
+  width: 130px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.nutchon7{
+  float: left;
+  margin-top: -30px;
+  margin-left: 515px;
+  height: 30px;
+  width: 180px;
+  background: #46b8da;
+  color: white;
+  border: 1px solid #46b8da;
+}
+.chu{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 50px;
+  margin-left: -550px;
+}
+#hin{
+  margin-top: 50px;
+  margin-left: -400px;
+}
+.tai {
+  float: left;
+  margin-top: -300px;
+  margin-left: 700px;
+  height: 50px;
+  width: 150px;
+  background: #2aabd2;
+
+  border:1px solid #2aabd2;
+}
+.tai p{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.img3{
+  margin-top: 100px;
+}
+.de{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-top: 70px;
+  margin-left: -510px;
+}
+.img3{
+  margin-left: -490px;
+  margin-top: 20px;
+}
+.tai1 {
+  float: left;
+  margin-top: -600px;
+  margin-left: 700px;
+  height: 50px;
+  width: 150px;
+  background: #2aabd2;
+
+  border:1px solid #2aabd2;
+}
+.tai1 p{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+.tai2 {
+  float: left;
+  margin-top: 30px;
+  margin-left: 700px;
+  height: 50px;
+  width: 150px;
+  background: #2aabd2;
+
+  border:1px solid #2aabd2;
+}
+.tai2 p{
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+}
+#De1{
+  background:white ;
 }
