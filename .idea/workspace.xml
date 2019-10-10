@@ -11,7 +11,7 @@
   <component name="ProjectId" id="1Rg5HhyIg7oNn5MvV3KSYQ3ZBNo" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vidu" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -46,6 +46,9 @@
       <workItem from="1570440234300" duration="21126000" />
       <workItem from="1570505298584" duration="1773000" />
       <workItem from="1570511967017" duration="8166000" />
+      <workItem from="1570529791578" duration="665000" />
+      <workItem from="1570539760390" duration="5704000" />
+      <workItem from="1570691672566" duration="7645000" />
     </task>
     <servers />
   </component>
