@@ -5,7 +5,8 @@
     <title>17130006_Lê Thị Lan Anh</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
     <link rel="stylesheet" href="fonts/icomoon/style.css">
@@ -124,7 +125,6 @@
             <span class="current">Labs</span>
         </div>
     </div>
-
     <div id="menu1">
         <ul>
             <li><a href="Lab1.html">Lab1</a>
@@ -135,88 +135,116 @@
             </li>
         </ul>
     </div>
-
-
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-mortarboard"></span>
-                    <h3>Our Philosphy</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-school-material"></span>
-                    <h3>Academics Principle</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                        Dolore, amet reprehenderit.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-                    <span class="icon flaticon-library"></span>
-                    <h3>Key of Success</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-                        Dolore, amet reprehenderit.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3">
-                    <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
-                    <p><a href="#">Learn More</a></p>
-                </div>
-                <div class="col-lg-3">
-                    <h3 class="footer-heading"><span>Our Campus</span></h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Acedemic</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Our Interns</a></li>
-                        <li><a href="#">Our Leadership</a></li>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Human Resources</a></li>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tab" role="tabpanel">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#Section1" aria-controls="home" role="tab" data-toggle="tab">Requirement</a></li>
+                        <li role="presentation"><a href="#Section2" aria-controls="profile" role="tab" data-toggle="tab">Design</a></li>
+                        <li role="presentation"><a href="#Section3" aria-controls="messages" role="tab" data-toggle="tab">Implementation</a></li>
                     </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h3 class="footer-heading"><span>Our Courses</span></h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Math</a></li>
-                        <li><a href="#">Science &amp; Engineering</a></li>
-                        <li><a href="#">Arts &amp; Humanities</a></li>
-                        <li><a href="#">Economics &amp; Finance</a></li>
-                        <li><a href="#">Business Administration</a></li>
-                        <li><a href="#">Computer Science</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-3">
-                    <h3 class="footer-heading"><span>Contact</span></h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Help Center</a></li>
-                        <li><a href="#">Support Community</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Share Your Story</a></li>
-                        <li><a href="#">Our Supporters</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="copyright">
-                        <p>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Lan Anh</a>
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
+                    <!-- Tab panes -->
+                    <div class="tab-content tabs">
+                        <div role="tabpanel" class="tab-pane active" id="Section1">
+                            <h3>Section 1</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="Section2">
+                            <h3>Section 2</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
+                        </div>
+                        <div role="tabpanel" class="tab-pane fade" id="Section3">
+                            <h3>Section 3</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper, magna a ultricies volutpat, mi eros viverra massa, vitae consequat nisi justo in tortor. Proin accumsan felis ac felis dapibus, non iaculis mi varius.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!--    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">-->
+    <!--        <div class="container">-->
+    <!--            <div class="row">-->
+    <!--                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
+    <!--                    <span class="icon flaticon-mortarboard"></span>-->
+    <!--                    <h3>Our Philosphy</h3>-->
+    <!--                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>-->
+    <!--                </div>-->
+    <!--                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
+    <!--                    <span class="icon flaticon-school-material"></span>-->
+    <!--                    <h3>Academics Principle</h3>-->
+    <!--                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?-->
+    <!--                        Dolore, amet reprehenderit.</p>-->
+    <!--                </div>-->
+    <!--                <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">-->
+    <!--                    <span class="icon flaticon-library"></span>-->
+    <!--                    <h3>Key of Success</h3>-->
+    <!--                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?-->
+    <!--                        Dolore, amet reprehenderit.</p>-->
+    <!--                </div>-->
+    <!--            </div>-->
+    <!--        </div>-->
+    <!--    </div>-->
+
+
+    <!--    <div class="footer">-->
+    <!--        <div class="container">-->
+    <!--            <div class="row">-->
+    <!--                <div class="col-lg-3">-->
+    <!--                    <p class="mb-4"><img src="images/logo.png" alt="Image" class="img-fluid"></p>-->
+    <!--                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>-->
+    <!--                    <p><a href="#">Learn More</a></p>-->
+    <!--                </div>-->
+    <!--                <div class="col-lg-3">-->
+    <!--                    <h3 class="footer-heading"><span>Our Campus</span></h3>-->
+    <!--                    <ul class="list-unstyled">-->
+    <!--                        <li><a href="#">Acedemic</a></li>-->
+    <!--                        <li><a href="#">News</a></li>-->
+    <!--                        <li><a href="#">Our Interns</a></li>-->
+    <!--                        <li><a href="#">Our Leadership</a></li>-->
+    <!--                        <li><a href="#">Careers</a></li>-->
+    <!--                        <li><a href="#">Human Resources</a></li>-->
+    <!--                    </ul>-->
+    <!--                </div>-->
+    <!--                <div class="col-lg-3">-->
+    <!--                    <h3 class="footer-heading"><span>Our Courses</span></h3>-->
+    <!--                    <ul class="list-unstyled">-->
+    <!--                        <li><a href="#">Math</a></li>-->
+    <!--                        <li><a href="#">Science &amp; Engineering</a></li>-->
+    <!--                        <li><a href="#">Arts &amp; Humanities</a></li>-->
+    <!--                        <li><a href="#">Economics &amp; Finance</a></li>-->
+    <!--                        <li><a href="#">Business Administration</a></li>-->
+    <!--                        <li><a href="#">Computer Science</a></li>-->
+    <!--                    </ul>-->
+    <!--                </div>-->
+    <!--                <div class="col-lg-3">-->
+    <!--                    <h3 class="footer-heading"><span>Contact</span></h3>-->
+    <!--                    <ul class="list-unstyled">-->
+    <!--                        <li><a href="#">Help Center</a></li>-->
+    <!--                        <li><a href="#">Support Community</a></li>-->
+    <!--                        <li><a href="#">Press</a></li>-->
+    <!--                        <li><a href="#">Share Your Story</a></li>-->
+    <!--                        <li><a href="#">Our Supporters</a></li>-->
+    <!--                    </ul>-->
+    <!--                </div>-->
+    <!--            </div>-->
+
+    <!--            <div class="row">-->
+    <!--                <div class="col-12">-->
+    <!--                    <div class="copyright">-->
+    <!--                        <p>-->
+    <!--                            &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
+    <!--                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Lan Anh</a>-->
+    <!--                            &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;-->
+    <!--                        </p>-->
+    <!--                    </div>-->
+    <!--                </div>-->
+</div>
+</div>
+</div>
 
 
 </div>

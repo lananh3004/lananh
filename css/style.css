@@ -1247,54 +1247,54 @@ a:hover,a:focus{
 .down{
   height: 40px;
   width: 120px;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   float: left;
   margin-left: 900px;
-  margin-top: -500px;
-  border: 1px solid dodgerblue;
+  margin-top: -300px;
+  border: 1px solid forestgreen;
 
 }
 .down01 {
   height: 40px;
   width: 120px;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   float: left;
   margin-left: 900px;
-  margin-top: -590px;
-  border: 1px solid dodgerblue;
+  margin-top: -300px;
+  border: 1px solid forestgreen;
 }
 .down2{
   height: 40px;
   width: 120px;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   float: left;
   margin-left: 900px;
-  margin-top: -580px;
-  border: 1px solid dodgerblue;
+  margin-top: -300px;
+  border: 1px solid forestgreen;
 }
 
 .down3{
   height: 40px;
   width: 120px;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   float: left;
   margin-left: 900px;
-  margin-top: -460px;
-  border: 1px solid dodgerblue;
+  margin-top: -250px;
+  border: 1px solid forestgreen;
 }
 .down7 {
   height: 40px;
   width: 150px;
-  background: dodgerblue;
+  background: forestgreen;
   color: white;
   float: left;
   margin-left: 900px;
   margin-top: -80px;
-  border: 1px solid dodgerblue;
+  border: 1px solid forestgreen;
 
 }
 
@@ -1307,10 +1307,12 @@ a:hover,a:focus{
 .down a{
   color: white;
 }
+
 #De .chu1{
 float: left;
   font-size: 20px;
   margin-top: 60px;
+  font-weight: bolder;
 }
 #De .img{
   float: left;
@@ -1322,6 +1324,7 @@ float: left;
   float: left;
   margin-left: 0px;
   margin-top: 60px;
+  font-weight: bolder;
 }
 #De .img1{
   float: left;
@@ -1333,6 +1336,7 @@ float: left;
   float: left;
   margin-left: 0px;
   margin-top: 60px;
+  font-weight: bolder;
 }
 #De .img3{
   float: left;
@@ -1356,26 +1360,36 @@ float: left;
   font-size: 20px;
   margin-left: 440px;
   font-family: Arial;
-  color: blueviolet;
+  color: darkgreen;
   width: 200px;
 }
-.li{
-  height: 30px;
-  width: 200px;
-  border: 2px inset lightgrey;
-  float: left;
-  margin-left: 815px;
-  margin-top: -33px;
-  border-radius: 5px;
+.ch4 {
+ float: left;
+    margin-left: 200px;
+    margin-top: -30px;
+}
+.ch4 .se{
+    border: 2px inset lightgrey;
+    border-radius: 5px;
+    margin-left: 200px;
+  margin-top: -3px;
+}
+/*.ch4 .li{*/
+/*  height: 25px;*/
+/*  width: 200px;*/
+/*  border: 2px inset lightgrey;*/
+/*  float: right;*/
+/*    margin-left: 500px;*/
+/*  margin-top: -33px;*/
+/*  border-radius: 5px;*/
 
-}
+/*}*/
 .ch1 h4{
   float: left;
-  margin-left: 720px;
-  color: blueviolet;
+  margin-left: 920px;
+  color: forestgreen;
   font-size: 15px;
-   /*margin-top: 50px;*/
-
+   margin-top: 20px;
 
 
 }
@@ -1386,45 +1400,52 @@ float: left;
 .ch2 p{
   font-size: 15px;
   float: left;
-  margin-left: -730px;
-  color: blueviolet;
+  margin-left: -1050px;
+  color: forestgreen;
   font-size: 15px;
+    margin-top: 20px;
 }
 .but{
-  background:rgba(213,0,0,0.8);
+  background:rgba(245,0,0,0.76);
   color: white;
   border-radius: 5px;
   height: 30px;
-  width: 30px;
+  width: 40px;
+border: 1px solid rgba(245,0,0,0.76) ;
+    float: left;
+  font-size: 11px;
 
 }
+
 .but1{
-  background: yellow;
-  color:black;
+  background:grey;
+  color:white;
   border-radius: 5px;
   height: 30px;
-  width: 30px;
-  font-size: 12px;
+  width: 40px;
+  font-size: 11px;
+  border: 1px solid grey;
 
 }
 .cong{
   float: left;
-  margin-left: -680px;
-  margin-top: 0px;
+  margin-left: -1000px;
+  margin-top: 20px;
   height: 35px;
   width: 35px;
-  background: greenyellow;
+  background:forestgreen;
   color: white;
+    border: 1px solid forestgreen;
 }
 
 #form{
-  color: dodgerblue;
-  font-size: 25px;
+  color: forestgreen;
+  font-size: 20px;
   font-weight: bolder;
   text-align: center;
   height: 650px;
   float: left;
-  margin-left: 70px;
+  margin-left: 90px;
   margin-top: 50px;
   width: 460px;
   border: 2px outset lightgrey;
@@ -1434,10 +1455,10 @@ float: left;
 
 }
 #form .fo{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 39px;
-  margin-left: 30px;
+  margin-top: 30px;
+  margin-left: 16px;
 
 
 }
@@ -1447,13 +1468,13 @@ float: left;
   border: 1px outset lightgrey;
   float: left;
   margin-top: 30px;
-  margin-left: 22px;
+  margin-left: 42px;
 }
 #form .fo1{
-  font-size: 15px;
+    font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -389px;
+  margin-top: 90px;
+  margin-left: -408px;
 
 
 }
@@ -1466,10 +1487,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo2{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left:-391px;
+  margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1482,10 +1503,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo3{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1498,10 +1519,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo5{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1514,10 +1535,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo6{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1530,10 +1551,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo7{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1546,10 +1567,10 @@ float: left;
   margin-left: 120px;
 }
 #form .fo8{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    margin-top: 90px;
+    margin-left: -405px;
 
 
 }
@@ -1565,12 +1586,12 @@ float: left;
   width: 60px;
   height: 30px;
   color: white;
-  background: greenyellow;
+  background:forestgreen;
   border: 1px solid lightgrey;
   float: left;
   margin-top: 80px;
   margin-left: -140px;
-  font-size: 15px;
+  font-size: 12px;
 }
 .nu1{
   width: 60px;
@@ -1584,13 +1605,13 @@ float: left;
   font-size: 13px;
 }
 #form2{
-  color: dodgerblue;
-  font-size: 25px;
+  color: forestgreen;
+  font-size: 20px;
   font-weight: bolder;
   text-align: center;
   height: 650px;
   float: left;
-  margin-left: 550px;
+  margin-left: 580px;
   margin-top: -650px;
   width: 450px;
   border: 2px outset lightgrey;
@@ -1600,10 +1621,10 @@ float: left;
 
 }
 #form2 .f{
-  font-size: 15px;
+  font-size: 13px;
   float: left;
-  margin-top: 39px;
-  margin-left: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
@@ -1613,13 +1634,14 @@ float: left;
   border: 1px outset lightgrey;
   float: left;
   margin-top: 30px;
-  margin-left: 22px;
+  margin-left: 47px;
 }
 #form2 .f1{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -389px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
+
 
 
 }
@@ -1628,115 +1650,115 @@ float: left;
   width: 300px;
   border: 1px outset lightgrey;
   float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    margin-top: 30px;
+    margin-left: 15px;
 }
 #form2 .f2{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr2{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 12px;
 }
 #form2 .f3{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr3{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 39px;
 }
 #form2 .f5{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr5{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 46px;
 }
 #form2 .f6{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr6{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 52px;
 }
 #form2 .f7{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr7{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 57px;
 }
 #form2 .f8{
-  font-size: 15px;
-  float: left;
-  margin-top: 100px;
-  margin-left: -392px;
+    font-size: 13px;
+    float: left;
+    margin-top: 30px;
+    margin-left: 15px;
 
 
 }
 #form2 .fr8{
-  height: 30px;
-  width: 300px;
-  border: 1px outset lightgrey;
-  float: left;
-  margin-top: 30px;
-  margin-left: 120px;
+    height: 30px;
+    width: 300px;
+    border: 1px outset lightgrey;
+    float: left;
+    margin-top: 30px;
+    margin-left: 55px;
 }
 .nu2{
   width: 60px;
   height: 30px;
   color: white;
-  background: greenyellow;
+  background: forestgreen;
   border: 1px solid lightgrey;
   float: left;
   margin-top: 80px;
   margin-left: -140px;
-  font-size: 15px;
+  font-size: 12px;
 }
 .nu3{
   width: 60px;
@@ -1821,6 +1843,31 @@ float: left;
   border-top: 1px solid black;
   font-size: 14px;
 
+}
+.table #stt{
+    width: 30px;
+}
+.table #ha{
+    width: 160px;
+}
+.table #ma{
+    width: 80px;
+}
+.table #ten{
+    width: 260px;
+}
+.table #kd{
+    width: 120px;
+}
+.table #cl{
+    width: 95px;
+}
+
+
+.table{
+    width: 1300px;
+    float: left;
+    margin-left: -100px;
 }
 /*lab2*/
 
@@ -1989,18 +2036,19 @@ margin-top: 20px;
 }
 .tai {
   float: left;
-  margin-top: -300px;
+  margin-top: -200px;
   margin-left: 700px;
   height: 50px;
   width: 150px;
-  background: #2aabd2;
+  background: forestgreen;
 
-  border:1px solid #2aabd2;
+  border:1px solid forestgreen;
 }
 .tai p{
   color: white;
   text-align: center;
   padding-top: 10px;
+
 }
 
 .img3{
@@ -2018,13 +2066,13 @@ margin-top: 20px;
 }
 .tai1 {
   float: left;
-  margin-top: -600px;
+  margin-top: -400px;
   margin-left: 700px;
   height: 50px;
   width: 150px;
-  background: #2aabd2;
+  background: forestgreen;
 
-  border:1px solid #2aabd2;
+  border:1px solid forestgreen;
 }
 .tai1 p{
   color: white;
@@ -2037,9 +2085,9 @@ margin-top: 20px;
   margin-left: 700px;
   height: 50px;
   width: 150px;
-  background: #2aabd2;
+  background: forestgreen;
 
-  border:1px solid #2aabd2;
+  border:1px solid forestgreen;
 }
 .tai2 p{
   color: white;
@@ -2066,6 +2114,7 @@ margin-top: 20px;
   margin-top: -330px;
   margin-left: 350px;
   text-align: left;
+  font-size: 15px;
 }
 #size p {
   float: left;
@@ -2075,7 +2124,7 @@ margin-top: 20px;
   font-size: 16px;
 
 }
-#si p{
+#si {
   float: left;
   margin-top: -280px;
   border: 1px solid black;
@@ -2088,6 +2137,10 @@ margin-top: 20px;
   margin-left: 650px;
   font-size: 20px;
   padding-top: -10px;
+}
+#si p{
+  text-align: center;
+  margin-top: -3px;
 }
 #sol p{
   float: left;
@@ -2117,14 +2170,17 @@ margin-top: 20px;
   font-size: 18px;
   font-weight: bolder;
   margin-left: 0px;
-  margin-top: 2px;
+  margin-top: -2px;
 }
-#so p{
+#so {
   font-size: 18px;
   color: black;
   float: left;
   margin-left: 16px;
   margin-top: 4px;
+}
+#so p{
+  margin-top: -4px;
 }
 #but #tru{
   height: 30px;
@@ -2133,12 +2189,13 @@ margin-top: 20px;
   border: 1px solid black;
   float: left;
   margin-left: 70px;
-  margin-top: -50px;
+  margin-top: -46px;
 }
 #but #tru p{
   color: white;
   font-size: 22px;
   font-weight: bolder;
+  margin-top: -2px;
 }
 .ld{
   float: left;
@@ -2163,23 +2220,23 @@ margin-top: 20px;
 .nutchon{
   float: left;
   margin-top: 0px;
-  margin-left: 350px;
+  margin-left: 345px;
   height: 30px;
   width: 130px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .nutchon1{
   float: left;
   margin-top: -30px;
-  margin-left: 515px;
+  margin-left: 503px;
   height: 30px;
   width: 180px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .hi1{
@@ -2198,6 +2255,7 @@ margin-top: 20px;
   margin-top: -330px;
   margin-left: 350px;
   text-align: left;
+  font-size: 15px;
 }
 #size1 p {
   float: left;
@@ -2207,7 +2265,7 @@ margin-top: 20px;
   font-size: 16px;
 
 }
-#si1 p{
+#si1 {
   float: left;
   margin-top: -280px;
   border: 1px solid black;
@@ -2219,6 +2277,10 @@ margin-top: 20px;
   text-align: center;
   margin-left: 650px;
   font-size: 20px;
+}
+#si1 p{
+  text-align: center;
+  margin-top: -3px;
 }
 #sol1 p{
   float: left;
@@ -2248,14 +2310,14 @@ margin-top: 20px;
   font-size: 18px;
   font-weight: bolder;
   margin-left: 0px;
-  margin-top: 2px;
+  margin-top: -2px;
 }
 #so1 p{
   font-size: 18px;
   color: black;
   float: left;
   margin-left: 16px;
-  margin-top: 4px;
+  margin-top: 0px;
 }
 #but1 #tru1{
   height: 30px;
@@ -2264,12 +2326,13 @@ margin-top: 20px;
   border: 1px solid black;
   float: left;
   margin-left: 70px;
-  margin-top: -50px;
+  margin-top: -46px;
 }
 #but1 #tru1 p{
   color: white;
   font-size: 22px;
   font-weight: bolder;
+  margin-top: -2px;
 }
 .ld1{
   float: left;
@@ -2294,23 +2357,23 @@ margin-top: 20px;
 .nutchon2{
   float: left;
   margin-top: 0px;
-  margin-left: 350px;
+  margin-left: 345px;
   height: 30px;
   width: 130px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .nutchon3{
   float: left;
   margin-top: -30px;
-  margin-left: 515px;
+  margin-left: 503px;
   height: 30px;
   width: 180px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .hi2{
@@ -2327,18 +2390,19 @@ margin-top: 20px;
 #tien2 p{
   float: left;
   margin-top: 100px;
-  margin-left: -105px;
+  margin-left: -112px;
   text-align: left;
+  font-size: 15px;
 }
 #size2 p {
   float: left;
   margin-top: 155px;
-  margin-left: -105px;
+  margin-left: -112px;
   font-weight: bolder;
   font-size: 16px;
 
 }
-#si2 p{
+#si2 {
   float: left;
   margin-top: -280px;
   border: 1px solid black;
@@ -2352,19 +2416,27 @@ margin-top: 20px;
   font-size: 20px;
   padding-top: -5px;
 }
-#si3 p{
+#si2 p{
+  text-align: center;
+  margin-top: -3px;
+}
+#si3 {
   float: left;
   margin-top: -280px;
   border: 4px solid black;
   background: white;
   color: black;
-  height: 32px;
+  height: 30px;
   width: 30px;
   border-radius: 40px;
   text-align: center;
   margin-left: 650px;
-  font-size: 15px;
+  font-size: 20px;
 
+}
+#si3 p{
+  text-align: center;
+  margin-top: -5px;
 }
 #sol2 p{
   float: left;
@@ -2394,14 +2466,14 @@ margin-top: 20px;
   font-size: 18px;
   font-weight: bolder;
   margin-left: 0px;
-  margin-top: 2px;
+  margin-top: -2px;
 }
 #so2 p{
   font-size: 18px;
   color: black;
   float: left;
   margin-left: 16px;
-  margin-top: 4px;
+  margin-top: 0px;
 }
 #but2 #tru2{
   height: 30px;
@@ -2410,12 +2482,13 @@ margin-top: 20px;
   border: 1px solid black;
   float: left;
   margin-left: 70px;
-  margin-top: -50px;
+  margin-top: -46px;
 }
 #but2 #tru2 p{
   color: white;
   font-size: 22px;
   font-weight: bolder;
+  margin-top: -2px;
 }
 .ld2{
   float: left;
@@ -2440,23 +2513,23 @@ margin-top: 20px;
 .nutchon4{
   float: left;
   margin-top: 0px;
-  margin-left: 350px;
+  margin-left: 345px;
   height: 30px;
   width: 130px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .nutchon5{
   float: left;
   margin-top: -30px;
-  margin-left: 515px;
+  margin-left: 503px;
   height: 30px;
   width: 180px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .hi3{
@@ -2473,18 +2546,19 @@ margin-top: 20px;
 #tien3 p{
   float: left;
   margin-top: 100px;
-  margin-left: -120px;
+  margin-left: -135px;
   text-align: left;
+  font-size: 15px;
 }
 #size3 p {
   float: left;
   margin-top: 150px;
-  margin-left: -120px;
+  margin-left: -135px;
   font-weight: bolder;
   font-size: 16px;
 
 }
-#si5 p{
+#si5 {
   float: left;
   margin-top: -280px;
   border: 1px solid black;
@@ -2496,6 +2570,10 @@ margin-top: 20px;
   text-align: center;
   margin-left: 650px;
   font-size: 20px;
+}
+#si5 p{
+  text-align: center;
+  margin-top: -3px;
 }
 #sol3 p{
   float: left;
@@ -2525,14 +2603,14 @@ margin-top: 20px;
   font-size: 18px;
   font-weight: bolder;
   margin-left: 0px;
-  margin-top: 2px;
+  margin-top: -2px;
 }
 #so3 p{
   font-size: 18px;
   color: black;
   float: left;
   margin-left: 16px;
-  margin-top: 4px;
+  margin-top: 0px;
 }
 #but3 #tru3{
   height: 30px;
@@ -2541,12 +2619,13 @@ margin-top: 20px;
   border: 1px solid black;
   float: left;
   margin-left: 70px;
-  margin-top: -50px;
+  margin-top: -46px;
 }
 #but3 #tru3 p{
   color: white;
   font-size: 22px;
   font-weight: bolder;
+  margin-top: -2px;
 }
 .ld3{
   float: left;
@@ -2571,23 +2650,23 @@ margin-top: 20px;
 .nutchon6{
   float: left;
   margin-top: 0px;
-  margin-left: 350px;
+  margin-left: 345px;
   height: 30px;
   width: 130px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 .nutchon7{
   float: left;
   margin-top: -30px;
-  margin-left: 515px;
+  margin-left: 503px;
   height: 30px;
   width: 180px;
-  background: #46b8da;
+  background: forestgreen;
   color: white;
-  border: 1px solid #46b8da;
+  border: 1px solid forestgreen;
   font-size: 12px;
 }
 
@@ -2696,7 +2775,7 @@ color: #1d5987;
 }
 .phai .noi{
   float: left;
-  margin-top: -640px;
+  margin-top: -635px;
   margin-left: 700px;
   width: 400px;
   font-size: 14px;
@@ -2856,7 +2935,7 @@ color: #1d5987;
   margin-top: -20px;
 }
 .hia2{
-  margin-top: 30px;
+  margin-top: 5px;
 }
 .nod4 p{
   font-size: 16px;
@@ -2910,7 +2989,7 @@ color: #1d5987;
   margin-left: 300px;
 }
 .tieu1{
-  width: 250px;
+  width: 200px;
   font-size: 15px;
   color: black;
   margin-top: -330px;
@@ -2943,7 +3022,7 @@ color: #1d5987;
   margin-left: 600px;
 }
 .tieu2{
-  width: 250px;
+  width: 200px;
   font-size: 15px;
   color: black;
   margin-top: -360px;
@@ -2975,11 +3054,11 @@ color: #1d5987;
   margin-left: 600px;
 }
 .pi3{
-  margin-top: -833px;
+    margin-top: -835px;
   margin-left: 900px;
 }
 .tieu3{
-  width: 250px;
+  width: 240px;
   font-size: 15px;
   color: black;
   margin-top: -360px;
@@ -3017,44 +3096,47 @@ color: #1d5987;
 .butt{
   height: 40px;
   width: 150px;
-  background: #0d95e8;
-  border: 1px solid #0d95e8;
+  background: forestgreen;
+  border: 1px solid forestgreen;
   float: left;
-  margin-top: -390px;
-  margin-left: 850px;
+  margin-top: -250px;
+  margin-left: 800px;
 }
 .butt p{
   color: white;
 }
-.de1 {
+.de1  {
   float: left;
   margin-top: 80px;
 font-size: 20px;
 
+  font-weight: bolder;
 }
+
 .f1{
   margin-top: 30px;
 }
 .butt1{
    height: 40px;
    width: 150px;
-   background: #0d95e8;
-   border: 1px solid #0d95e8;
+   background: forestgreen;
+   border: 1px solid forestgreen;
    float: left;
-   margin-top: -620px;
-   margin-left: 850px;
+   margin-top: -420px;
+   margin-left: 800px;
  }
 .butt1 p{
   color: white;
+
 }
 .butt2{
   height: 40px;
   width: 150px;
-  background: #0d95e8;
-  border: 1px solid #0d95e8;
+  background: forestgreen;
+  border: 1px solid forestgreen;
   float: left;
   margin-top: 10px;
-  margin-left: 850px;
+  margin-left: 800px;
 }
 .butt2 p{
   color: white;
