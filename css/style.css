@@ -1468,13 +1468,13 @@ border: 1px solid rgba(245,0,0,0.76) ;
   border: 1px outset lightgrey;
   float: left;
   margin-top: 30px;
-  margin-left: 42px;
+  margin-left: 45px;
 }
 #form .fo1{
     font-size: 13px;
   float: left;
   margin-top: 90px;
-  margin-left: -408px;
+  margin-left: -405px;
 
 
 }
@@ -1715,7 +1715,7 @@ border: 1px solid rgba(245,0,0,0.76) ;
     border: 1px outset lightgrey;
     float: left;
     margin-top: 30px;
-    margin-left: 52px;
+    margin-left: 51px;
 }
 #form2 .f7{
     font-size: 13px;
@@ -1747,7 +1747,7 @@ border: 1px solid rgba(245,0,0,0.76) ;
     border: 1px outset lightgrey;
     float: left;
     margin-top: 30px;
-    margin-left: 55px;
+    margin-left: 54px;
 }
 .nu2{
   width: 60px;
@@ -2696,7 +2696,7 @@ margin-top: 20px;
   margin-left: 100px;
 }
 /*lab3*/
-.b1 a{
+.b1 a {
   width: 70px;
   height: 35px;
   color: white;
@@ -2705,14 +2705,16 @@ margin-top: 20px;
   border-radius: 10px;
 
 }
-.b2 a{
+.bi2 a{
   width: 70px;
   height: 35px;
   color: white;
   background: green;
   text-align: center;
   border-radius: 10px;
-  margin-left: 55px;
+  float: left;
+  margin-left: 50px;
+
 }
 .loai{
 margin-top: -10px;
@@ -2775,7 +2777,7 @@ color: #1d5987;
 }
 .phai .noi{
   float: left;
-  margin-top: -635px;
+  margin-top: -640px;
   margin-left: 700px;
   width: 400px;
   font-size: 14px;
@@ -3140,4 +3142,1170 @@ font-size: 20px;
 }
 .butt2 p{
   color: white;
+}
+
+/*lab4*/
+
+.logo{
+  position: absolute;
+  float: left;
+  margin-top: 22px;
+  margin-left: 20px;
+}
+.me{
+  float: left;
+  margin-left: 220px;
+  /*padding-left: 200px;*/
+
+}
+.menu .me ul{
+  margin: 0px;
+  padding: 0px;
+  overflow: auto;
+}
+.menu  {
+  margin: auto;
+  padding: auto;
+  background: #2B292C;
+  height: 80px;
+  width: 1200px;
+  margin-left: -40px;
+
+
+}
+.menu .me   a{
+  float: left;
+  clear: right;
+  margin: 20px 18px;
+  color: white;
+  font-size: 17px;
+}
+
+.menu .me   ul li{
+
+  list-style-type: none;
+  float: left;
+  padding:  10px 0 10px 0;
+  margin-left: 0px;
+}
+.menu .me  ul li:hover{
+  /*background: darkred;*/
+  cursor: pointer;
+  color: forestgreen;
+  /*border-left: 3px solid firebrick;*/
+
+
+}
+
+.menu .me  .sub ul{
+  position:absolute;
+  visibility: hidden;
+  background: #2B292C;
+
+
+
+
+}
+.menu .me  .sub:hover ul {
+  visibility: visible;
+  margin-top: 60px;
+  width: 200px;
+  margin-left: 0px;
+}
+.menu .me  .sub ul li{
+  border-bottom: 1px solid #8f8f91;
+  border-left: 1px solid #8f8f91;
+  width: 280px;
+  height: 60px;
+}
+.giohang{
+  height: 30px;
+  width: 90px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  float: left;
+  margin-top: 33px;
+  margin-left: 15px;
+  border-radius: 5px;
+}
+.dan p{
+  font-size: 13px;
+  color: white;
+  float: left;
+  margin-top: 33px;
+  margin-left: 100px;
+}
+.dan p:hover{
+  color: forestgreen;
+  cursor: pointer;
+}
+.giohang p{
+  font-size: 13px;
+}
+.tim{
+  height: 27px;
+  width: 150px;
+  border-radius: 5px;
+  float: left;
+  margin-top: -55px;
+  margin-left: 1035px;
+
+}
+.nhap{
+  font-size: 12px;
+}
+.vitri p{
+  font-size: 13px;
+  margin-left: 14px;
+  margin-top: 5px;
+}
+.vitri1 p{
+  font-size: 13px;
+  color:forestgreen;
+  float: left;
+  margin-left: 70px;
+  margin-top: -45px;
+}
+.vitri1 p:hover{
+  color: white;
+  cursor: pointer;
+}
+.vt{
+  float: left;
+  margin-top: 30px;
+  height: 40px;
+  width: 180px;
+  background: #2B292C;
+  color: white;
+  border-radius: 6px;
+}
+
+
+.an{
+  float: left;
+margin-left: 0px;
+  margin-top: 120px;
+}
+#ten p{
+  float: left;
+  font-size: 18px;
+  margin-top: -380px;
+  margin-left: 350px;
+  width: 500px;
+}
+#tien p{
+  float: left;
+  margin-top: -330px;
+  margin-left: 350px;
+  text-align: left;
+  font-size: 15px;
+}
+#size p {
+  float: left;
+  margin-top: -280px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si {
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+  padding-top: -10px;
+}
+#si p{
+  text-align: center;
+  margin-top: -3px;
+}
+#sol p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but #cong{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but #cong p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+#so {
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 4px;
+}
+#so p{
+  margin-top: -4px;
+}
+#but #tru{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -46px;
+}
+#but #tru p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: -2px;
+}
+.ld{
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
+}
+#chon p{
+  float: left;
+  margin-left: 345px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text12{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 440px;
+  margin-top: -62px;
+
+}
+.nutchon{
+  float: left;
+  margin-top: 0px;
+  margin-left: 345px;
+  height: 30px;
+  width: 130px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.nutchon1{
+  float: left;
+  margin-top: -30px;
+  margin-left: 503px;
+  height: 30px;
+  width: 180px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.hi1{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+ #ten1 p{
+  float: left;
+  font-size: 18px;
+  margin-top: -380px;
+  margin-left: 350px;
+   width: 500px;
+}
+#tien1 p{
+  float: left;
+  margin-top: -330px;
+  margin-left: 350px;
+  text-align: left;
+  font-size: 15px;
+}
+#size1 p {
+  float: left;
+  margin-top: -280px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si1 {
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+}
+#si1 p{
+  text-align: center;
+  margin-top: -3px;
+}
+#sol1 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 350px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but1{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but1 #cong1{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but1 #cong1 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+#so1 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+#but1 #tru1{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -46px;
+}
+#but1 #tru1 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: -2px;
+}
+.ld1{
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
+}
+#chon1 p{
+  float: left;
+  margin-left: 345px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text13{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 440px;
+  margin-top: -62px;
+
+}
+.nutchon2{
+  float: left;
+  margin-top: 0px;
+  margin-left: 345px;
+  height: 30px;
+  width: 130px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.nutchon3{
+  float: left;
+  margin-top: -30px;
+  margin-left: 503px;
+  height: 30px;
+  width: 180px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.hi2{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+ #ten2 p{
+  float: left;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 28px;
+}
+#gia1 p{
+  float: left;
+  margin-top: 100px;
+  margin-left: -102px;
+  text-align: left;
+  font-size: 15px;
+}
+#ki1 p {
+  float: left;
+  margin-top: 155px;
+  margin-left: -102px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si2 {
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 610px;
+  font-size: 20px;
+  padding-top: -5px;
+}
+#si2 p{
+  text-align: center;
+  margin-top: -3px;
+}
+#si3 {
+  float: left;
+  margin-top: -280px;
+  border: 4px solid black;
+  background: white;
+  color: black;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+
+}
+#si3 p{
+  text-align: center;
+  margin-top: -5px;
+}
+#sol2 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 346px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but2{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but2 #cong2{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but2 #cong2 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+#so2 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+#but2 #tru2{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -46px;
+}
+#but2 #tru2 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: -2px;
+}
+.ld2{
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
+}
+#chon2 p{
+  float: left;
+  margin-left: 345px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text14{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 440px;
+  margin-top: -62px;
+
+}
+.nutchon4{
+  float: left;
+  margin-top: 0px;
+  margin-left: 345px;
+  height: 30px;
+  width: 130px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.nutchon5{
+  float: left;
+  margin-top: -30px;
+  margin-left: 503px;
+  height: 30px;
+  width: 180px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.hi3{
+  float: left;
+  margin-top: 50px;
+  margin-left: 0px;
+}
+ #ten3 p{
+  float: left;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 25px;
+}
+#gia p{
+  float: left;
+  margin-top: 100px;
+  margin-left: -122px;
+  text-align: left;
+  font-size: 15px;
+}
+#ki p {
+  float: left;
+  margin-top: 150px;
+  margin-left: -122px;
+  font-weight: bolder;
+  font-size: 16px;
+
+}
+#si5 {
+  float: left;
+  margin-top: -280px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 40px;
+  text-align: center;
+  margin-left: 650px;
+  font-size: 20px;
+}
+#si5 p{
+  text-align: center;
+  margin-top: -3px;
+}
+#sol3 p{
+  float: left;
+  margin-top: -240px;
+  margin-left: 344px;
+  font-weight: bolder;
+  font-size: 16px;
+}
+#but3{
+  float: left;
+  height: 30px;
+  width: 100px;
+  background: gainsboro;
+  margin-top: -240px;
+  margin-left: 579px;
+}
+#but3 #cong3{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 0px;
+}
+#but3 #cong3 p{
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 0px;
+  margin-top: -2px;
+}
+#so3 p{
+  font-size: 18px;
+  color: black;
+  float: left;
+  margin-left: 16px;
+  margin-top: 0px;
+}
+#but3 #tru3{
+  height: 30px;
+  width: 30px;
+  background: black;
+  border: 1px solid black;
+  float: left;
+  margin-left: 70px;
+  margin-top: -46px;
+}
+#but3 #tru3 p{
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  margin-top: -2px;
+}
+.ld3{
+  float: left;
+  margin-top: -200px;
+  margin-left: 340px;
+}
+#chon3 p{
+  float: left;
+  margin-left: 345px;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-top: -60px;
+}
+.pix_text15{
+  width: 243px;
+  height: 30px;
+  float: left;
+  margin-left: 440px;
+  margin-top: -62px;
+
+}
+.nutchon6{
+  float: left;
+  margin-top: 0px;
+  margin-left: 345px;
+  height: 30px;
+  width: 130px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+.nutchon7{
+  float: left;
+  margin-top: -30px;
+  margin-left: 503px;
+  height: 30px;
+  width: 180px;
+  background: forestgreen;
+  color: white;
+  border: 1px solid forestgreen;
+  font-size: 12px;
+}
+
+#menu2{
+  width: 100%;
+  height: 800px;
+  margin-top: -750px;
+
+}
+#menu2 ul li  {
+
+
+  list-style-type: none;
+
+
+
+}
+.b1  a {
+  float: left;
+  margin-left: 89px;
+}
+#menu2 ul li a:hover {
+  text-decoration: none;
+}
+.b2  a {
+  float: left;
+  margin-left: 100px;
+}
+#lab4{
+  float: left;
+  margin-left: 350px;
+  margin-top: -1170px;
+}
+#tenloai{
+  height: 50px;
+  width: 300px;
+  background: #2B292C;
+  float: left;
+  margin-top: 100px;
+  margin-left: -180px;
+}
+#tenloai p{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+#chung{
+  height: 50px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  float: left;
+  margin-top: 0px;
+}
+#loai1 a{
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+  text-decoration: forestgreen;
+}
+#soluong p{
+  font-size: 16px;
+  float: left;
+  margin-left:242px;
+  margin-top: -30px;
+}
+#chung1{
+  height: 50px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  float: left;
+  margin-top: 0px;
+  border-top: 1px solid black;
+}
+#loai2 a{
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+}
+#soluong1 p{
+  font-size: 16px;
+  float: left;
+  margin-left: 242px;
+  margin-top: -30px;
+}
+#chung2{
+  height: 50px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  float: left;
+  margin-top: 0px;
+  border-top: 1px solid black;
+}
+#loai3 a{
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+}
+#soluong2 p{
+  font-size: 16px;
+  float: left;
+  margin-left: 242px;
+  margin-top: -30px;
+}
+#chung3{
+  height: 50px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  float: left;
+  margin-top: 0px;
+  border-top: 1px solid black;
+}
+#loai4 a{
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+}
+#soluong3 p{
+  font-size: 16px;
+  float: left;
+  margin-left: 242px;
+  margin-top: -30px;
+}
+#chung4{
+  height: 50px;
+  width: 300px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  float: left;
+  margin-top: 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+#loai5 a{
+  font-size: 16px;
+  float: left;
+  margin-left: 20px;
+}
+#soluong4 p{
+  font-size: 16px;
+  float: left;
+  margin-left: 242px;
+  margin-top: -30px;
+}
+#truoc p{
+  height: 20px;
+  width: 14px;
+  color: forestgreen;
+  font-size: 15px;
+
+
+}
+#truoc{
+  float: left;
+  margin-top: 50px;
+  margin-left: 825px;
+  background: white;
+}
+.sau p{
+  height: 20px;
+  width: 14px;
+  color: forestgreen;
+  font-size: 15px;
+
+}
+.sau {
+  float: left;
+  margin-top: -40px;
+  margin-left: 1000px;
+  background: white;
+}
+.so p{
+  height: 20px;
+  width: 14px;
+  color: white;
+  font-size: 15px;
+
+}
+.so1 p{
+  height: 20px;
+  width: 14px;
+  color: forestgreen;
+  font-size: 15px;
+
+}
+.so2 p{
+  height: 20px;
+  width: 14px;
+  color: forestgreen;
+  font-size: 15px;
+
+}
+.so3 p{
+  height: 20px;
+  width: 14px;
+  color: forestgreen;
+  font-size: 15px;
+
+
+}
+.so3{
+  float: left;
+  margin-top: -40px;
+  margin-left: 965px;
+  background: white;
+}
+.so2{
+  float: left;
+  margin-top: -40px;
+  margin-left: 930px;
+  background: white;
+}
+.so1{
+  float: left;
+  margin-top: -40px;
+  margin-left: 895px;
+  background: white;
+}
+.so{
+  float: left;
+  margin-top: -40px;
+  margin-left: 860px;
+  background: forestgreen;
+
+}
+#truoc:hover{
+  background: lightgray;
+}
+.sau:hover{
+  background: lightgray;
+}
+.so:hover{
+  background: lightgray;
+}
+.so1:hover{
+  background: lightgray;
+}
+.so2:hover{
+  background: lightgray;
+}
+.so3:hover{
+  background: lightgray;
+}
+#cuoi{
+  height: 460px;
+  background:#2B292C ;
+  width: 1200px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 30px;
+}
+#diachi p{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+#diachi1 p{
+
+  font-size: 14px;
+
+  margin-top: -10px;
+  margin-left: 100px;
+}
+#sdt p{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+#sd p{
+
+  font-size: 14px;
+
+  margin-top: -10px;
+  margin-left: 100px;
+}
+#email p{
+  color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+#em p{
+
+  font-size: 14px;
+
+  margin-top: -10px;
+  margin-left: 100px;
+}
+.t1 {
+  width: 280px;
+  height: 30px;
+}
+.t2 {
+  width: 280px;
+  height: 30px;
+}
+#dien{
+font-size: 12px;
+  float: left;
+  margin-left: 500px;
+  margin-top: -270px;
+}
+#doanvan{
+  float: left;
+  margin-left: 500px;
+  margin-top: -230px;
+  font-size: 12px;
+}
+
+#dien1{
+  font-size: 12px;
+  float: left;
+  margin-left: 500px;
+ margin-top: -75px;
+}
+#dien2{
+  font-size: 12px;
+  float: left;
+  margin-left: 500px;
+  margin-top: -35px;
+}
+#nutbam {
+  width: 150px;
+  height: 35px;
+  float: left;
+  margin-left: 913px;
+  margin-top: 40px;
+  background: forestgreen;
+  border: 1px solid forestgreen;
+
+}
+#nutbam p{
+  font-size: 15px;
+  color: white;
+
+}
+#mucd p{
+  float: left;
+  color: white;
+  margin-left: 750px;
+  margin-top: -280px;
+  font-size: 20px;
+}
+#tong{
+  float: left;
+  margin-top: 40px;
+}
+#tag{
+  height: 50px;
+  width: 300px;
+  background: #2B292C;
+  float: left;
+  margin-top: 100px;
+  margin-left: -300px;
+}
+#tag p{
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+#noidu{
+  height: 200px;
+  width: 300px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 150px;
+  margin-left: -300px;
+}
+.ta {
+  height: 30px;
+  width: 150px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: lightgray;
+  border-radius: 5px;
+}
+.ta p{
+  font-size: 14px;
+  text-align: center;
+
+}
+.ta p:hover{
+  background:#2B292C ;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.ta1 {
+  height: 30px;
+  width: 70px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  background: lightgray;
+  border-radius: 5px;
+}
+.ta1 p{
+  font-size: 14px;
+  text-align: center;
+}
+.ta1 p:hover{
+  background:#2B292C ;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.a {
+float: left;
+  margin-top: 350px;
+  border-radius: 50%;
+  animation: toReg 3s 0.5s ease-in-out infinite;
+}
+
+
+@keyframes toReg {
+  to {
+    border-radius: 0%;
+
+  }
+}
+.i1{
+  float: left;
+  margin-top: 30px;
+}
+.do{
+    height: 40px;
+    width: 150px;
+    background: forestgreen;
+    color: white;
+    float: left;
+    margin-left: 900px;
+    margin-top: -80px;
+    border: 1px solid forestgreen;
+}
+.de5 {
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 70px;
+    margin-left: 0px;
+}
+.im5{
+    float: left;
+    margin-top: 50px;
 }
