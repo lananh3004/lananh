@@ -3234,7 +3234,7 @@ font-size: 20px;
   color: white;
   float: left;
   margin-top: 33px;
-  margin-left: 100px;
+  margin-left: 104px;
 }
 .dan p:hover{
   color: forestgreen;
@@ -4001,32 +4001,21 @@ margin-left: 0px;
   margin-left: 242px;
   margin-top: -30px;
 }
-#truoc p{
-  height: 20px;
-  width: 14px;
-  color: forestgreen;
-  font-size: 15px;
 
-
-}
 #truoc{
   float: left;
-  margin-top: 50px;
+  margin-top: -40px;
   margin-left: 825px;
   background: white;
+    color: forestgreen;
 }
-.sau p{
-  height: 20px;
-  width: 14px;
-  color: forestgreen;
-  font-size: 15px;
 
-}
 .sau {
   float: left;
   margin-top: -40px;
   margin-left: 1000px;
   background: white;
+    color: forestgreen;
 }
 .so p{
   height: 20px;
@@ -4035,11 +4024,14 @@ margin-left: 0px;
   font-size: 15px;
 
 }
+
+
 .so1 p{
   height: 20px;
   width: 14px;
   color: forestgreen;
   font-size: 15px;
+
 
 }
 .so2 p{
@@ -4062,24 +4054,28 @@ margin-left: 0px;
   margin-top: -40px;
   margin-left: 965px;
   background: white;
+    color: forestgreen;
 }
 .so2{
   float: left;
   margin-top: -40px;
   margin-left: 930px;
   background: white;
+    color: forestgreen;
 }
 .so1{
   float: left;
   margin-top: -40px;
   margin-left: 895px;
   background: white;
+    color: forestgreen;
 }
 .so{
   float: left;
   margin-top: -40px;
   margin-left: 860px;
   background: forestgreen;
+    color: white;
 
 }
 #truoc:hover{
@@ -4308,4 +4304,16 @@ float: left;
 .im5{
     float: left;
     margin-top: 50px;
+}
+.van{
+    width: 564px;
+    height: 145px;
+}
+#nutso{
+    float: left;
+    height: 20%;
+    margin-left: 0px;
+    margin-top: 60px;
+
+
 }
