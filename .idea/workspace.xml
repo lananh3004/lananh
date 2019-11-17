@@ -19,10 +19,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bansao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\WebstormProjects\bansaogtnm\images" />
       <recent name="C:\Users\TuyetNhung\WebstormProjects\webGTNM\images" />
     </key>
   </component>
@@ -67,7 +74,13 @@
       <workItem from="1572326066858" duration="2418000" />
       <workItem from="1572347895585" duration="1398000" />
       <workItem from="1572352237512" duration="8242000" />
-      <workItem from="1572429169526" duration="1282000" />
+      <workItem from="1572429169526" duration="2867000" />
+      <workItem from="1572549794248" duration="680000" />
+      <workItem from="1572692620688" duration="16000" />
+      <workItem from="1572962603358" duration="962000" />
+      <workItem from="1573907529781" duration="7975000" />
+      <workItem from="1573921451875" duration="5000000" />
+      <workItem from="1573977965813" duration="2638000" />
     </task>
     <servers />
   </component>
