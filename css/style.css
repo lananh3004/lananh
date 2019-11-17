@@ -1183,7 +1183,7 @@ a:hover,a:focus{
 .tab .nav-tabs li a{
   padding: 5px 20px;
   margin: 0 10px -1px 0;
-  font-size: 17px;
+  font-size: 20px;
   /*font-weight: 600;*/
   color: #293241;
   /*text-transform: uppercase;*/
@@ -3171,7 +3171,7 @@ font-size: 20px;
   background: forestgreen;
   border: 1px solid forestgreen;
   float: left;
-  margin-top: 10px;
+  margin-top: 70px;
   margin-left: 700px;
   box-shadow: 5px 5px 5px grey;
   border-radius: 5px;
@@ -4369,7 +4369,7 @@ a:hover,a:focus{
 .tab .nav-tab li a{
   padding: 5px 20px;
   margin: 0 10px -1px 0;
-  font-size: 17px;
+  font-size: 20px;
   /*font-weight: 600;*/
   color: #293241;
   /*text-transform: uppercase;*/
@@ -4448,7 +4448,7 @@ margin-top: 20px;
 .tab .nav-ta li a{
   padding: 5px 20px;
   margin: 0 10px -1px 0;
-  font-size: 17px;
+  font-size: 20px;
   /*font-weight: 600;*/
   color: #293241;
   /*text-transform: uppercase;*/
@@ -4630,5 +4630,26 @@ box-shadow: 2px 2px 2px gray;
   font-size: 16px;
   margin-top: -4px;
   color: white;
+}
+.fg{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.to{
+  margin-top: -35px;
+  margin-left: 30px;
+}
+#d{
+  margin-top: 70px;
+}
+.cuoi{
+  height: 460px;
+  background:#2B292C ;
+  width: 1200px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
 }
 
