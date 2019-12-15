@@ -968,10 +968,13 @@ h1, h2, h3, h4, h5,
       font-size: 15px; }
 
 .footer {
-  padding: 4rem 0;
+  height: 50px;
+  /*padding: 2rem 0;*/
   background: #183661;
   font-size: 14px;
-  color: #fff; }
+  color: #fff;
+margin-top: 100px;
+}
   .footer .footer-heading {
     font-size: 16px;
     color: #fff;
@@ -983,8 +986,14 @@ h1, h2, h3, h4, h5,
     text-decoration: underline; }
   .footer .copyright {
     color: #fff;
-    padding-top: 7rem;
-    text-align: center; }
+    /*padding-top: 7rem;*/
+    text-align: center;
+
+
+  }
+.footer .copyright p{
+  margin-top: 11px;
+}
 
 .ftco-subscribe-1 {
   background-size: cover;
@@ -1315,6 +1324,17 @@ a:hover,a:focus{
 
 
 }
+#De{
+  margin-top: -50px;
+}
+#De1{
+  margin-top: -50px;
+}
+#Section2{
+  margin-top: -50px;
+}
+
+
 
 #De .bu  a {
 
@@ -4651,5 +4671,19 @@ box-shadow: 2px 2px 2px gray;
   margin-left: -40px;
   margin-top: 100px;
   margin-bottom: 30px;
+}
+table, th, td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+
+}
+table{
+  box-shadow: 3px 5px 5px lightgray;
+}
+th{
+  color: #FFFFFF;
+}
+td{
+  text-align: center;
 }
 
