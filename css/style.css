@@ -4563,7 +4563,140 @@ margin-top: 20px;
 /*}*/
 
 /*==Style cho menu===*/
+#menu {
+  width: 1100px;
+  background: forestgreen ;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px ;
 
+}
+#menu ul {
+  /*background: #1F568B;*/
+  list-style-type: none;
+  text-align: center;
+  font-family: sans-serif;
+  color: #333;
+  margin-left: -100px;
+
+
+}
+
+#menu li {
+  color: #f1f1f1;
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#menu a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+#menu a:hover {
+  background: #F1F1F1;
+  color: #333;
+  border-radius: 10px;
+}
+.tt{
+  background: #F1F1F1;
+  color: #333;
+  border-radius: 10px;
+}
+.tt p{
+  color: black;
+}
+/*
+==Dropdown Menu==*/
+.sub-menu {
+  z-index: 1;
+  display: none;
+  position: absolute;
+  background: forestgreen;
+  width: 200px;
+
+
+}
+.sub-menu li{
+  width: 150px;
+
+}
+#menu li {
+  position: relative;
+
+}
+#menu li:hover .sub-menu {
+  display: block;
+}
+.sub-menu li {
+  margin-left: 0 !important;
+}
+
+/*==Menu cấp 3==*/
+/*.sub-menu > ul {*/
+/*  display: none!mportant;*/
+/*}*/
+.g{
+  margin-bottom: 30px;
+}
+.o{
+  width: 200px;
+  height: 30px;
+  float: left;
+  margin-left: 780px;
+  margin-top: -60px;
+box-shadow: 2px 2px 2px gray;
+}
+.tki{
+  height: 30px;
+  width: 100px;
+  float: left;
+  margin-left: 1000px;
+  margin-top: -60px;
+  background: forestgreen;
+  border-radius: 5px;
+  border: 1px solid forestgreen;
+  box-shadow: 2px 2px 2px gray ;
+}
+.tki p{
+  font-size: 16px;
+  margin-top: -4px;
+  color: white;
+}
+.fg{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.to{
+  margin-top: -35px;
+  margin-left: 30px;
+}
+#d{
+  margin-top: 70px;
+}
+.cuoi{
+  height: 460px;
+  background:#2B292C ;
+  width: 1200px;
+  float: left;
+  margin-left: -40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+/*table, th, td {*/
+/*  border: 1px solid lightgray;*/
+/*  border-collapse: collapse;*/
+
+/*}*/
+/*table{*/
+/*  box-shadow: 3px 5px 5px lightgray;*/
+/*}*/
+/*th{*/
+/*  color: #FFFFFF;*/
+/*}*/
+/*td{*/
+/*  text-align: center}*/
 .danhgia{
 background: #51BE78;
   border: 1px solid #51BE78;
